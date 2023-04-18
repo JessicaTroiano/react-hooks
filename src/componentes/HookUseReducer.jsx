@@ -47,6 +47,7 @@ const HookUseReducer = () => {
     {tasks.map((task) => (
       <li key={task.dispatchTasks} onDoubleClick={() => removeTask(task.id)}>{task.text}</li>
     ))}
+    <hr/>
     </>
   )
 }

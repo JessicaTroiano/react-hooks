@@ -17,6 +17,7 @@ const HookUseState = () => {
         <p>Variável: {name}</p>
         <button onClick={getName}>Botão</button>
       </div>
+      <hr/>
       </>
   )
 }
