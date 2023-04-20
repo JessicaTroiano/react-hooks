@@ -7,6 +7,7 @@ import HookUseRef from "../componentes/HookUseRef";
 import HookUseCallBack from "../componentes/HookUseCallBack";
 import HookUseMemo from "../componentes/HookUseMemo";
 import HookUseLayoutEffect from "../componentes/HookUseLayoutEffect";
+import HookUseImperativeRef from "../componentes/HookUseImperativeRef";
 
 const Home = () => {
   const {contextValue} =useContext(someContext);
@@ -34,6 +35,9 @@ const Home = () => {
       </div>
       <div>
         <HookUseLayoutEffect />
+      </div>
+      <div>
+        <HookUseImperativeRef />
       </div>
       </>
     )
